@@ -25,11 +25,11 @@ router.post('/uploads', upload.array('file', 2), function (req, res, next) {
 
 //한개
 router.post('/upload', upload.single('file'), function (req, res, next) {
-  const wow = req.body.wow;
+  const {postContent} = req.body;
   const loc = req.file.location;
   res.send({
       fileLocation: loc,
-      wow,
+      postContent,
   });
 });
 
