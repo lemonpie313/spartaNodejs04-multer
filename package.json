@@ -14,7 +14,10 @@
     "multipart": "^0.1.5",
     "nodemailer": "^6.9.13",
     "path": "^0.12.7",
-    "uuid4": "^2.0.3"
+    "socket.io": "^4.7.5",
+    "socket.io-client": "^4.7.5",
+    "uuid4": "^2.0.3",
+    "ws": "^8.17.1"
   },
   "devDependencies": {
     "dotenv": "^16.4.5",
